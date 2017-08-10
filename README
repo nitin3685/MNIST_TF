@@ -1,4 +1,12 @@
 MNIST Tutorial For ML Beginners
 https://www.tensorflow.org/get_started/mnist/beginners
 
+Download the MNIST data from http://yann.lecun.com/exdb/mnist/ 
+To some local directory like D:\Private_work\MNIST_TF\input_data
+			 ls input_data/
+				t10k-images-idx3-ubyte.gz  t10k-labels-idx1-ubyte.gz  train-images-idx3-ubyte.gz  train-labels-idx1-ubyte.gz
+
+python mnist_softmax.py --data_dir "D:\Private_work\MNIST_TF\input_data"
+
+
 
